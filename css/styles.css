@@ -87,6 +87,7 @@ img {
     .contenido-header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 }
 .texto-header {
@@ -132,7 +133,6 @@ img {
     .iconos {
         display: flex;
         gap: 2rem;
-        /* align-items: center; */
     }
 }
 .icono {
