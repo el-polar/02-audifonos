@@ -1,0 +1,16 @@
+:root {
+    --mainFont: "Roboto", sans-serif;
+    --secondaryFont: "Lato", sans-serif;
+
+    --primary: #1073ba;
+    --secondary: #00da55;
+    --gray: #3b3b3b;
+    --lightGray: #e1e1e1;
+    --white: #ffffff;
+    --black: #1f1e1e;
+
+    --distance: 5rem;
+}
+body {
+    font-family: var(--mainFont);
+}
