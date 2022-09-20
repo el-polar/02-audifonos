@@ -11,6 +11,19 @@
 
     --distance: 5rem;
 }
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1 REM = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 body {
     font-family: var(--mainFont);
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
