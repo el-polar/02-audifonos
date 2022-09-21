@@ -342,3 +342,78 @@ img {
         padding-left: 5rem;
     }
 }
+
+/* Newsletter */
+.newsletter {
+    background-image: linear-gradient(
+            to bottom,
+            transparent 50%,
+            var(--white) 0%
+        ),
+        url(../img/newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100rem;
+    background-position: 100%, right -18rem top -20rem;
+}
+@media (min-width: 768px) {
+    .newsletter {
+        background-image: linear-gradient(
+                to right,
+                transparent 50%,
+                var(--white) 0%
+            ),
+            url(../img/newsletter.jpg);
+        background-position: 100%, left -25rem bottom;
+    }
+}
+@media (min-width: 1024px) {
+    .newsletter {
+        background-position: 100%, left -20rem bottom -10rem;
+    }
+}
+@media (min-width: 1600px) {
+    .newsletter {
+        background-size: 100%, 200rem;
+        background-position: 100%, left -40rem bottom -35rem;
+    }
+}
+.contenido-newsletter {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: var(--distance);
+}
+@media (min-width: 768px) {
+    .contenido-newsletter {
+        grid-template-rows: unset;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.texto-newsletter {
+    grid-row: 2 / 3;
+    padding-bottom: var(--distance);
+    padding-top: calc(var(--distance) / 2);
+}
+@media (min-width: 768px) {
+    .texto-newsletter {
+        grid-column: 2 / 3;
+        padding: calc(var(--distance) * 2) 0;
+    }
+}
+.texto-newsletter h2 {
+    margin-top: 0;
+}
+.formulario input[type="text"] {
+    width: 100%;
+    padding: 1rem;
+}
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--primary);
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+}
