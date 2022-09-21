@@ -264,10 +264,24 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition-property: transform background-size;
+    transition-duration: 0.3s;
+}
+.modelo:hover {
+    transform: scale(1.1);
+    background-size: 18rem;
+}
+@media (min-width: 475px) {
+    .modelo:hover {
+        background-size: 25rem;
+    }
 }
 @media (min-width: 768px) {
     .modelo{
         padding-left: 4rem;
+    }
+    .modelo:hover {
+        background-size: 30rem;
     }
 }
 @media (min-width: 992px) {
