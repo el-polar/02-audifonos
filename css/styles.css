@@ -390,7 +390,6 @@ img {
 }
 .texto-newsletter {
     grid-row: 2 / 3;
-    padding-bottom: var(--distance);
     padding-top: calc(var(--distance) / 2);
 }
 @media (min-width: 768px) {
@@ -416,4 +415,14 @@ img {
     font-weight: 900;
     border: none;
     cursor: pointer;
+}
+
+/* Footer */
+.footer p {
+    text-align: center;
+    font-family: var(--secondaryFont);
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--primary);
+    padding: 2rem 0;
 }
