@@ -277,7 +277,7 @@ img {
     }
 }
 @media (min-width: 768px) {
-    .modelo{
+    .modelo {
         padding-left: 4rem;
     }
     .modelo:hover {
@@ -285,7 +285,7 @@ img {
     }
 }
 @media (min-width: 992px) {
-    .modelo{
+    .modelo {
         margin-bottom: 0;
     }
 }
@@ -319,12 +319,12 @@ img {
         grid-column: 2 /3;
         background-size: 20rem;
     }
-    .modelo-z h3{
+    .modelo-z h3 {
         font-size: 3rem;
     }
 }
 @media (min-width: 1200px) {
-    .modelo-z{
+    .modelo-z {
         background-size: 25rem;
         background-position: 85% center;
     }
